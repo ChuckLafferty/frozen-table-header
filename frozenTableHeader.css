@@ -1,0 +1,19 @@
+/*frozenHeader.css*/
+
+.frozenTableHeader-header {
+	overflow-y: visible;
+	overflow-x: hidden;
+}
+
+.frozenTableHeader-header tr td, 
+.frozenTableHeader-header tr th,
+.frozenTableHeader-inner tr td, 
+.frozenTableHeader-footer tr td { 
+  width: 200px; 
+}
+
+.frozenTableHeader-holder {
+	height: 100px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
